@@ -1,11 +1,9 @@
 let again = 'Y'
-let valid = true
 alert('WELCOME TO THE BEST CALCULATOR :)')
 do {
 let num1 = parseInt(prompt('Enter the first number to calculate:'))
 if (isNaN(num1)){
     alert('Invalid input for the first number. Please try again.')
-    valid = false
     continue
 }
 let operation = prompt('Choose an operation: (+   -   /   //   *   **)')
